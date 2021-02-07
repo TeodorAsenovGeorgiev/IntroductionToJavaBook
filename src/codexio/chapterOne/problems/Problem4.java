@@ -1,4 +1,4 @@
-package codexio.chapterOne;
+package codexio.chapterOne.problems;
 
 /**
  * Print Hello!

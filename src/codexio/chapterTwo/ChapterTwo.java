@@ -1,5 +1,8 @@
 package codexio.chapterTwo;
 
+import codexio.chapterTwo.problems.Problem1;
+import codexio.chapterTwo.problems.Problem10;
+
 public class ChapterTwo {
 
     Problem1 problem1 = new Problem1();

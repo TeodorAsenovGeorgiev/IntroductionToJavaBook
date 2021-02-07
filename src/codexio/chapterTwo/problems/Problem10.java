@@ -1,4 +1,4 @@
-package codexio.chapterTwo;
+package codexio.chapterTwo.problems;
 
 /**
  * Декларирайте две променливи от тип int. Заадайте им стойности 5 и 10.Разменете стойностите им и гиотпечатайте
