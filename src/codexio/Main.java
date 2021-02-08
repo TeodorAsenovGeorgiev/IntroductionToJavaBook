@@ -1,13 +1,12 @@
 package codexio;
 
-import codexio.chapterOne.ChapterOne;
 import codexio.chapterTwo.ChapterTwo;
 
 public class Main {
 
     public static void main(String[] args) {
-        ChapterOne chapterOne = new ChapterOne();
-        chapterOne.solve();
+       // ChapterOne chapterOne = new ChapterOne();
+       // chapterOne.solve();
 
         ChapterTwo chapterTwo = new ChapterTwo();
         chapterTwo.solve();
