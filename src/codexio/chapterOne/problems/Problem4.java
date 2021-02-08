@@ -6,6 +6,6 @@ package codexio.chapterOne.problems;
 public class Problem4 {
 
     public void printHello() {
-        System.out.println("Hello");
+        System.out.println("Добър ден!");
     }
 }
