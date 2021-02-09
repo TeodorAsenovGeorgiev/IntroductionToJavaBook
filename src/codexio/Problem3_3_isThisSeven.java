@@ -12,6 +12,6 @@ public class Problem3_3_isThisSeven {
         int number = input.nextInt();
         int div100 = number / 100;
         int div10 = div100%10;
-        System.out.println((div10==7)?(true):(false));
+        System.out.println(div10==7?("Третата цифра от дясно на ляво е 7"):("Третата цифра от дясно на ляво е различна от 7"));
     }
 }
