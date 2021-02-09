@@ -5,7 +5,7 @@ package codexio;
  */
 public class Problem3_1_evenOrOdd {
     public static void main(String[]args){
-       int a = 3;
+       int a = 5;
        int b = a%2;
        System.out.println(b==0?"even":"odd");
     }
