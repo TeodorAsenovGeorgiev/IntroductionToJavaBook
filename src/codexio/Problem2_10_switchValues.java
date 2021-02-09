@@ -1,11 +1,11 @@
-package codexio.chapterTwo.problems;
+package codexio;
 
 /**
  * Декларирайте две променливи от тип int. Заадайте им стойности 5 и 10.Разменете стойностите им и ги отпечатайте
  */
-public class Problem10 {
+public class Problem2_10_switchValues {
 
-    public void switchValues(){
+    public static void main(String[]args){
         Integer var1 = 5;
         Integer var2 = 10;
         Integer temp = var1;

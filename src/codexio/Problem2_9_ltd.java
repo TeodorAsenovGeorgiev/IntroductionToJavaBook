@@ -1,4 +1,4 @@
-package codexio.chapterTwo.problems;
+package codexio;
 
 /**
  * 9.Фирма, занимаваща  се  с маркетинг,  иска да пази запис с данни на нейните служители.
@@ -7,8 +7,8 @@ package codexio.chapterTwo.problems;
  * Декларирайте необходимите  променливи,  нужни  за  да  се  запази  информацията  за един служител,
  * като използвате подходящи типове данни и описателни имена.
  */
-public class Problem9 {
-    public void ltd(){
+public class Problem2_9_ltd {
+    public static void main(String[]args){
         String firstName ;
         String lastName;
         byte age;

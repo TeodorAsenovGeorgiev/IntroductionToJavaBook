@@ -1,4 +1,4 @@
-package codexio.chapterTwo.problems;
+package codexio;
 
 /**
  * 5.Декларирайте две променливи от тип String със стойности "Hello" и "World". Декларирайте променлива от тип Object.
@@ -7,8 +7,8 @@ package codexio.chapterTwo.problems;
  * Отпе-чатайте променливата от тип Object.
  * Декларирайте променлива от тип String и присвоете на последната променливата от тип Object
  */
-public class Problem5 {
-    public void stringInObject() {
+public class Problem2_5_stringInObject {
+    public static void main(String[]args) {
         String one = "Hello";
         String two = "World";
         Object obj  = one + " " + two;
