@@ -1,4 +1,13 @@
 package codexio;
+/**
+ * 9.Напишете  програма,  която  преобразува  дадено  число  в  интервала [0..999]в текст, съответстващ на българското произношение.
+ *Примери:-0 "Нула"
+ * -273 "Двеста седемдесет и три"
+ * -400 "Четиристотин"
+ * -501 "Петстотин и едно"
+ * -711 "Седемстотин и единадесет"
+ *
+ */
 
 import java.util.Scanner;
 
@@ -42,7 +51,7 @@ public class Problem5_9_prounonceFrom0to999 {
             }
         }
         if ( (b!=1) && (c!=0) ){
-            switch (a){
+            switch (b){
                 case 1 :System.out.print("eдно");break;
                 case 2 :System.out.print("две");break;
                 case 3 :System.out.print("три");break;
