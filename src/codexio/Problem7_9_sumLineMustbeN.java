@@ -11,34 +11,39 @@ public class Problem7_9_sumLineMustbeN {
         int[] arr = {4, 3, 1, 4, 2, 5, 8};
         int S = 11;
 
-        int tempSum=arr[0];
-        int startIndex = 0;
-        int count = 1;
-
+        int sum = 0;
         for (int i = 0; i < arr.length; i++) {
 
-            int sum = 0;
+            sum = arr[i];
 
-            for (int j = i; j < arr.length; j++) {
+            if (sum < S) {
+                System.out.print("Num: " + arr[i] + ", ");
+            } else if (sum > S) {
+                System.out.println("Sum not reached!");
+                System.out.println();
+                continue;
+            } else {
+                System.out.println("Last num: " + arr[i] + " :( Sum not reached!");
+                System.out.println("Sum: " + sum);
+            }
+            for (int j = i + 1; j < arr.length; j++) {
 
                 sum += arr[j];
-                if (arr[j]+arr[j+1]< S){
 
-                    tempSum += arr[j];
+                if (sum < S) {
+                    System.out.print("Num: " + arr[j] + ", ");
+                } else if (sum > S) {
+                    System.out.println("Num: " + arr[j] + " :( Sum not reached! :(");
+                    System.out.println();
+                    sum -= arr[j];
+                } else {
+                    System.out.print("Num: " + arr[j] + ", ");
+                    System.out.println("Sum: " + sum + " !!!!!!!!!!");
+                    System.out.println();
+                    sum -= arr[j];
                 }
-                if (tempSum >S){
-                    tempSum = arr[j];
-            } if(tempSum == S){
 
-                }
-//
-//                    System.out.println(startIndex);
-//                    System.out.println(count);
-//                }
             }
         }
-        System.out.println(tempSum);
-
     }
 }
-//TODO NOT FINISHED

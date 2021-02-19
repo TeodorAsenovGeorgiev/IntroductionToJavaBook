@@ -2,11 +2,7 @@ package codexio;
 
 
 import java.util.Arrays;
-public class test {
-    public static void main(String[] args) {
-        int[][] matrix = {  { 1, 2, 3, 4 }, // row 0 values
-                            { 5, 6, 7, 8 }, // row 1 values
-                         };
+
 
 //        Scanner input = new Scanner(System.in);
 //        System.out.print("n = ");
@@ -29,5 +25,5 @@ public class test {
 //            System.out.printf("*%d", num);
 //        }
 //        System.out.printf("= %d%n", sum);
-    }
-}
+//    }
+//}
