@@ -2,7 +2,7 @@ package codexio;
 
 import java.util.Scanner;
 
-public class Problem8_binaryToDecimal {
+public class Problem8_5_binaryToDecimal {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("Въведете число: ");
