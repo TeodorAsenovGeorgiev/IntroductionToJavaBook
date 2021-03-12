@@ -22,4 +22,13 @@ public final class Utils{
     public static void printWrongInput(){
         System.out.println("Wrong Iinput");
     }
+
+    public static String pritnReverseNumber(int number){
+        String stringNum=String.valueOf(number);
+        String output="";
+        for (int i = stringNum.length()-1; i >=0 ; i--) {
+            output = output+stringNum.charAt(i);
+        }
+        return output;
+    }
 }
