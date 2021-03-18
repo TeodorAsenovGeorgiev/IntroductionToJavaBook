@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Problem9_10_menuOfTasks {
 
-    public static double averageSumOfLineofNums(int...nums){
+    public static double averageSumOfLineOfNums(int...nums){
         double sum =0;
         for (int i = 0; i <nums.length; i++) {
             sum+=nums[i];
@@ -58,7 +58,7 @@ public class Problem9_10_menuOfTasks {
                 }
                 if (validateLineofNums(array)){
                     System.out.println("Средното аритметично на редицата е: ");
-                    System.out.println( averageSumOfLineofNums(array));
+                    System.out.println( averageSumOfLineOfNums(array));
                 }else System.out.println("Невалидна поредица!");break;
 
             case 3:
