@@ -19,7 +19,7 @@ public class Cat {
     }
     //Default Constructor
     public Cat(){
-        this.name = "U`nnamed";
+        this.name = "Unnamed";
         this.color="gray";
 
     }
